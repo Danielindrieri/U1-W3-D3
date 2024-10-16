@@ -1,22 +1,49 @@
 body {
-    text-align: center;
+  text-align: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 9, 1) 0%,
+    rgba(244, 200, 14, 1) 54%,
+    rgba(197, 238, 8, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 main h1 {
-    text-align: center;
-    font-size: 1.7em;
+    font-family: sans-serif;
+    font-weight: 700;
+  text-align: center;
+  padding-top: 0.4em;
+  font-size: 1.7em;
+  height: 1.5em;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 9, 1) 0%,
+    rgba(244, 200, 14, 1) 54%,
+    rgba(197, 238, 8, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  
 }
- .finale {
-    text-decoration: line-through;
- }
-  main li {
-font-size: 1.3em;
-list-style-type: none;
- }
- main {
-    display: inline-block;
-    width: 50%;
-    height: 350px;
-    margin-left: 15em;
-    margin-right: 15em;
-    background-color: orange;
- }
+.finale {
+  text-decoration: line-through;
+}
+main li {
+  font-size: 1.3em;
+  list-style-type: none;
+padding-right: 0.5em;
+}
+main {
+  margin-top: 2em;
+  border-radius: 15px;
+  box-shadow: 2px 2px 17px 9px rgba(0, 0, 0, 0.25);
+  display: inline-block;
+  width: 50%;
+  height: 25em;
+  margin-left: 15em;
+  margin-right: 15em;
+  background-color: orange;
+}
