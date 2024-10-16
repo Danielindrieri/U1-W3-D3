@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+main h1 {
+    text-align: center;
+    font-size: 1.7em;
+}
+ .finale {
+    text-decoration: line-through;
+ }
+  main li {
+font-size: 1.3em;
+list-style-type: none;
+ }
+ main {
+    display: inline-block;
+    width: 50%;
+    height: 350px;
+    margin-left: 15em;
+    margin-right: 15em;
+    background-color: orange;
+ }
